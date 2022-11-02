@@ -1,0 +1,47 @@
+.container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
+
+a:hover {
+    color: rgb(30, 70, 70);
+    text-decoration: underline;
+}
+
+#disclaimer {
+    font-family: cursive;
+}
+
+#link {
+    background-color: rgba(50, 50, 200, 0.5);
+}
+
+section > h1 {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+#ingredients,
+#steps {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+
+#steps > ol {
+    margin-left: 10px;
+}
+
+img {
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: dotted;
+}
