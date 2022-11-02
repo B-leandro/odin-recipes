@@ -27,17 +27,24 @@ section > h1 {
     text-align: center;
 }
 
+h1,
+h2,
+h3 {
+/*'Source Serif Pro'=serif*/
+    font-family: 'Source Serif Pro', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
 figcaption {
     font-size: 15px;
 }
 
 #ingredients,
 #steps {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-family: 'Dosis', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
 }
 
 #steps > ol {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 img {
